@@ -1,0 +1,112 @@
+:root {
+  color-scheme: light;
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #f7fbff, #eef3ff);
+  color: #1c2434;
+}
+
+.app {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  margin-top: 0;
+  color: #4b5870;
+}
+
+.controls {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 16px 0;
+}
+
+select,
+button {
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid #c8d3ec;
+  padding: 8px 12px;
+}
+
+button {
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #dbe5f8;
+  border-radius: 14px;
+  padding: 16px;
+}
+
+.label {
+  color: #607090;
+  margin-bottom: 4px;
+}
+
+.target {
+  font-size: 1.8rem;
+  margin: 0 0 12px;
+  min-height: 2.2rem;
+}
+
+.typed {
+  font-size: 1.4rem;
+  min-height: 1.8rem;
+  margin: 0;
+}
+
+.status {
+  display: flex;
+  gap: 24px;
+  font-weight: bold;
+  margin: 14px 0;
+}
+
+.hint {
+  color: #4b5870;
+  margin-bottom: 10px;
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(44px, 1fr));
+  gap: 8px;
+}
+
+.key {
+  border: 1px solid #c8d3ec;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 0;
+  text-align: center;
+  user-select: none;
+}
+
+.key:active {
+  background: #dfe9ff;
+}
+
+.action {
+  margin-top: 10px;
+}
+
+.ok {
+  color: #2c7a27;
+}
+
+.miss {
+  color: #b00020;
+}
